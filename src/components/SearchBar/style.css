@@ -1,0 +1,32 @@
+.Searchbar{
+    display: flex;
+    width:400px;
+    background-color: white;
+    border-radius: 2px;
+    height: 35px;
+}
+
+.Searchbar input{
+    width:100%;
+    padding: 10px 10px;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+}
+
+.Searchbar input:focus{
+    outline: none;
+}
+
+.Searchbar button {
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+
+}
+
+.Searchbar .fa-search,.Searchbar .fa-times-circle{
+    font-size: 18px;
+    margin: auto;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.body{
+    position: absolute;
+    top:50px;
+    left:200px;
+    width: calc(100% - 200px);
+    height:1000px;
+    padding: 20px 0;
+    background-color: rgb(243, 243, 243);
+}

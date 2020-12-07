@@ -1,0 +1,115 @@
+
+.tasks{
+}
+
+
+.tasks h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(17, 72, 211) ;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.new-task{
+    width: calc(100% - 10px);
+    display: flex;
+    align-items: center;
+    transition: .2s ease-in;
+    border-bottom: 2px solid transparent ;
+    margin-bottom: 20px;
+    margin: 0 5px;
+    padding: 0 5px;
+
+
+}
+
+.new-task button, .task button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.new-task button{
+    color: grey;
+}
+
+.new-task button:focus, .task button:focus{
+    outline: none;
+}
+
+.new-task input{
+    width: 100%;
+    background-color: transparent;
+    font-size: 16px;
+    margin-left: 15px;
+    padding: 10px 0;
+    border: none;
+}
+
+.new-task input:focus {
+    outline:none;
+}
+
+.new-task:focus-within{
+    outline: none;
+    border-color: rgb(17, 72, 211) ;
+    
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom:1px;
+    align-items: center;
+    color: rgb(53, 53, 53);
+    border-bottom: 1px solid grey;
+    padding: 20px 10px;
+    cursor:pointer;
+    
+}
+
+.task > div{
+    display: flex;
+}
+
+.task:hover{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.task p {
+    margin-left: 15px;
+    text-decoration: line-through solid transparent;
+    transition: 0.2s;
+}
+
+.done {
+    color:rgb(99, 99, 99);
+}
+
+.done button{
+    color: rgb(36, 36, 36);
+}
+
+.done p {
+    text-decoration: line-through;
+}
+
+.activestar{
+    color: gold;
+}
+
+.unshown-tasks{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(85, 85, 85);
+    margin-top: 50px;
+}
+
+.fa-trash-alt{
+    margin-left: 10px;
+}
